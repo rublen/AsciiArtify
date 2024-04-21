@@ -18,4 +18,4 @@ The API server can then be accessed using https://localhost:8080 (!note: httpS, 
 ```
 k -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo
 ```
-![Login page](argocd-login-page.png)
+![Login page](images/argocd-login-page.png)
